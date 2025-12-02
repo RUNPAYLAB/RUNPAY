@@ -1,86 +1,23 @@
-# KINHEX
+# KASONE
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 [![Solana](https://img.shields.io/badge/Solana-Web3-green.svg)](https://solana.com/)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)]()
 [![GitHub Issues](https://img.shields.io/github/issues/yourusername/ontora-ai.svg)](https://github.com/yourusername/ontora-ai/issues)
 
-[![Website](https://img.shields.io/badge/Website-KINHEX-blue?logo=google-chrome)](https://kinhex.run/)
-[![Twitter](https://img.shields.io/badge/Twitter-KINHEX-blue?logo=twitter)](https://x.com/KINHEXLABS)
+[![Website](https://img.shields.io/badge/Website-KASONE-blue?logo=google-chrome)](https://kasone.fun/)
+[![Twitter](https://img.shields.io/badge/Twitter-KASONE-blue?logo=twitter)](https://x.com/KASONEFUN)
 
-```
-CA: 6AnZ5cWBwNTeijQV5pmQ2b272hCN9eiPFy6kELsApump
-```
+Kasone is not built on the premise of prediction — it is built on the premise of creation.
 
-# Kinhex — Gesture-Based On-Chain Interaction Protocol
+In traditional markets, participants wait for the future to arrive and attempt to position themselves around it. In Kasone, the future does not arrive on its own; it is minted, priced, and contested in real time by the market itself. Every event becomes an asset with liquidity, volatility, depth, and valuation, forming an economy where narratives behave like financial instruments. 
 
-Kinhex transforms natural hand motion into blockchain commands.  
-No clicks, no buttons — every gesture becomes on-chain execution.
+Anyone can forge an event, attach liquidity to it, and allow the market to determine its probability through trading activity. Outcomes are no longer simply guessed — they are shaped by the collective weight of belief.
 
----
+Kasone introduces a new financial primitive: future-minting.
 
-## 🚀 What is Kinhex
-Kinhex is an interaction protocol that allows users to perform on-chain actions through hand gestures tracked in real time.  
-The protocol replaces traditional UI interactions with motion, enabling minting, swapping, voting, claiming, and more — all triggered by gestures.
+Users do not ask what will happen — they define what could happen, encode the logic of that future, and release it into the marketplace. When events compete for consensus, the pricing mechanism becomes a signal of truth, and liquidity becomes the force that reinforces or rejects a narrative. The system incentivizes creation, participation, and resolution, generating a self-sustaining loop where value flows through ideas rather than speculation.
 
----
+In Kasone, the boundary between markets and reality narrows.
 
-## 🔄 How It Works
-1. The camera detects hand movement and recognizes the gesture locally.
-2. The gesture is converted into a cryptographic command mapped to an on-chain action.
-3. The wallet signs and the blockchain completes execution — motion becomes command.
-
----
-
-## ✨ Features
-- Gesture-first Web3 interaction  
-- Local hand-tracking (no video uploaded or stored)  
-- Wallet signing preserved for full security  
-- Works with standard webcams and phone cameras  
-- Lightweight SDK for developers  
-- Native Solana support, with multi-chain expansion planned
-
----
-
-## 📦 Installation (SDK)
-```bash
-npm install @kinhex/sdk
-```
-
----
-
-## 🧩 Basic Usage
-```
-import { Kinhex } from "@kinhex/sdk";
-
-const kinhex = new Kinhex();
-
-kinhex.onGesture("PINCH", () => mintNFT());
-kinhex.onGesture("FIST", () => vote(proposalId));
-kinhex.onGesture("WAVE", () => swap(tokenA, tokenB));
-```
-
----
-
-## 📁 Folder Structure
-
-```
-/sdk
-  core
-  gestures
-  mapping
-  utils
-/demo
-  basic-mint-example
-  gesture-swap
-  livestream-demo
-```
-
-```
-Kinhex does not bypass wallet permissions.
-Every interaction still requires approval through the wallet signing flow.
-Gesture recognition runs locally to ensure privacy and safety.
-```
-
-
-
+The future is not something discovered — it is something built.
